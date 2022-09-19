@@ -9,13 +9,18 @@ missing_char('kitten', 4) → 'kittn'
 
 '''
 str = 'kitten'
-n = len(str)
+print(str[::-1])
+print(str.replace(str[0],str[5]))
+
+'''print(str[::-1])
 for n in range(0,len(str)-1):
  front = str[:n]
  back = str[n+1:]
 print(front+back)
+'''
     
 '''
+
 print(str)
 print(str[0])
 print(str[0:n:2])
