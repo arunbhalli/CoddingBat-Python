@@ -8,14 +8,7 @@ missing_char('kitten', 0) → 'itten'
 missing_char('kitten', 4) → 'kittn'
 
 '''
-str = 'kitten'
-# print(str[::-1])
-# print(str.replace(str[0],str[5]))
-# def missing_char(str):
-#   print(str[1])
-# missing_char('kitten', 1)
-
-
+# str = 'kitten'
 def missing_char(str, n):
     front = str[:n]
     back = str[n+1:]
@@ -26,9 +19,3 @@ missing_char('kitten', 1)
 
 # print(front+back)
 
-'''
-print(str)
-print(str[0])
-print(str[0:n:2])
-print(str.replace(str[0],''))
-'''
